@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main(char *argc[], int argv){
 	int my_number = 5;
-	printf("My number is %d\n", my_number);
+	printf("Initial arguments was %d\nMy number is %d\n", argv, my_number);
 	return 0;
 }
